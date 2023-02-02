@@ -1,0 +1,25 @@
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(222, 171, 3);
+  height: 100vh;
+  color: rgb(0, 0, 0);
+}
+header button {
+  background: rgb(42, 255, 170);
+}
+header button::after {
+  content: "Byeeeeeee";
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: gray;
+}/*# sourceMappingURL=style.css.map */
